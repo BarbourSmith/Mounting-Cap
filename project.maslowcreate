@@ -655,10 +655,27 @@
             ]
         },
         {
+            "atomType": "Tag",
+            "name": "Add Tag",
+            "x": 0.2767203513909224,
+            "y": 0.4351145038167939,
+            "uniqueID": 803070,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/386897/849627Group"
+                },
+                {
+                    "name": "tag",
+                    "ioValue": "Plastic"
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "PCB Holder",
-            "x": 0.0746705710102489,
-            "y": 0.37022900763358774,
+            "x": 0.0951683748169839,
+            "y": 0.5610687022900763,
             "uniqueID": 672250,
             "ioValues": [],
             "topLevel": false,
@@ -672,7 +689,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 100
+                            "ioValue": 120
                         }
                     ]
                 },
@@ -702,7 +719,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 90
+                            "ioValue": 115
                         }
                     ]
                 },
@@ -802,23 +819,6 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Tag",
-            "name": "Add Tag",
-            "x": 0.2767203513909224,
-            "y": 0.4351145038167939,
-            "uniqueID": 803070,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "atoms/386897/849627Group"
-                },
-                {
-                    "name": "tag",
-                    "ioValue": "Plastic"
-                }
-            ]
-        },
-        {
             "atomType": "Color",
             "name": "Color",
             "x": 0.36133603238866396,
@@ -852,8 +852,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 0.5080527086383602,
-            "y": 0.8053435114503817,
+            "x": 0.5021961932650073,
+            "y": 0.7938931297709924,
             "uniqueID": 858995,
             "ioValues": [],
             "topLevel": false,
@@ -867,7 +867,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 95
+                            "ioValue": 110
                         }
                     ]
                 },
@@ -1020,18 +1020,18 @@
             "ap2ID": 803070
         },
         {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 3",
-            "ap2Primary": false,
-            "ap1ID": 672250,
-            "ap2ID": 849627
-        },
-        {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 803070,
             "ap2ID": 186399
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 672250,
+            "ap2ID": 849627
         },
         {
             "ap1Name": "geometry",
